@@ -3,7 +3,9 @@ body{
     display: grid;
     grid-template-rows: 0.5fr 3fr 30fr 3fr;
     row-gap: 7px;
-    background-color: rgb(193, 236, 172);
+    background-color: #EBF5D7;
+    font-family: 'Open Sans';
+    font-style: normal;
 }
 
 header{
@@ -50,6 +52,8 @@ main{
     background-color: #cccccc;
     padding: 8px;
     gap: 8px;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
 
 #span{
@@ -67,6 +71,8 @@ main{
     grid-column: 1 / 9;
     grid-row: 2 / 10;
     grid-template-rows: 1fr 5fr 5fr;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
 
 #section span{
@@ -82,10 +88,12 @@ main{
 }
 
 #section_fila1 div{
-    background-color: rgb(141, 216, 216);
+    background-color: #F0F9FA;
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
 
 #section_fila2{
@@ -98,10 +106,12 @@ main{
 }
 
 #section_fila2 div{
-    background-color: rgb(141, 216, 216);
+    background-color: #F0F9FA;
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
 
 #aside{
@@ -112,13 +122,17 @@ main{
     grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr;
     padding: 16px;
     row-gap: 16px;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
 
 #aside a{
-    background-color: rgb(240, 138, 6);
+    background-color: #FFD9B3;
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
 
 #aside span{
@@ -134,7 +148,8 @@ main{
     grid-row: 10;
     grid-template-columns: repeat(11,1fr);
     align-items: center;
-    
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
  
 #div img{
@@ -147,4 +162,6 @@ footer{
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
